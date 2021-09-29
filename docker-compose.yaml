@@ -4,3 +4,5 @@ services:
   redis:
     image: nginx:stable
     restart: always
+    ports:
+      - 9999:80
